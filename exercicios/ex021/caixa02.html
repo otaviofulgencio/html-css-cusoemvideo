@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightgray;
+        margin: 0px;
+    }
+    
+    header {
+        background-color: darkgray;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    header > h1 {
+        margin: 0px;
+    }
+    
+    main {
+        margin: 10px;
+        background-color: darkgray;
+        border-radius: 10px 0px;
+        box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.377);
+        
+    }
+
+    nav {
+        background-color: darkslategray;
+        padding: 5px;
+        box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.507);
+    }
+
+    nav > a {
+        text-decoration: none;
+        margin-right: 30px;
+        color: white
+    }
+
+    nav > a:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    section {
+        padding: 7px;
+        
+    }
+
+    section > h1 {
+        background-color: darkslategray;
+    }
+
+    article > aside {
+        text-align: right;
+        color: blue;
+        font-style: italic;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+    }
+
+    footer > p {
+        margin: 0px;
+    }
+</style>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Futebol</h1>
+            <article>
+                <h2>Brasileirão</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores quaerat, accusamus delectus fuga illo dicta reiciendis pariatur asperiores ut! Quis ipsa nam ipsam provident? Explicabo sequi a rerum laudantium maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cum perspiciatis maxime quasi rerum rem quos delectus temporibus error vero minus tempore consequuntur molestias dolorem consectetur, inventore distinctio, non nulla.</p>
+            </article>
+            <article>
+                <h2>Premier League</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui maxime excepturi, quos, animi nobis temporibus quod, eos nisi quidem blanditiis ipsa totam. Rerum ad excepturi, ducimus natus officiis sint minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio at sit aperiam excepturi nobis quaerat quas. Voluptates impedit blanditiis eos! Corrupti corporis officia, voluptatum quod sed tenetur alias vero dignissimos. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam natus ipsum nesciunt mollitia. Cum magnam quaerat necessitatibus quibusdam, error ipsam, quis itaque incidunt dignissimos dolorum natus atque officiis, vitae nostrum.</p>
+                <aside>Escrito por Guardiola</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Feito por Premiere</p>
+    </footer>
+</body>
+</html>
