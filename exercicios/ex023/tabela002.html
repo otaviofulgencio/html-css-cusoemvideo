@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
+        thead, tfoot {
+            background-color: rgb(77, 73, 73);
+            color: white;
+        }
+            
+        thead {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(77, 73, 73);
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        thead th.largura {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" class="largura">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44.411.238</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.538.718</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.054.524</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.054.524</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td 
+                class="num">16.054.524</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.054.524</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.054.524</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.054.524</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.054.524</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.054.524</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.054.524</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>81.004.480</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt natus earum expedita ratione alias assumenda, illo dolorum hic aspernatur id nihil dolorem libero atque ullam sed asperiores est cupiditate sit tempore, quia non ad quibusdam repudiandae reiciendis. Voluptas voluptates voluptatibus nostrum ullam? Rem veniam obcaecati animi sit magni dolor autem modi cumque ex, labore expedita quae, quo eligendi itaque numquam quod eaque dignissimos asperiores nemo non. Vel fugit corporis, accusamus assumenda nostrum omnis. Nihil iusto quae at reiciendis totam iure aperiam, voluptates est recusandae accusantium facilis veritatis quam animi accusamus error nam tempore, vitae inventore assumenda corrupti expedita aliquid obcaecati? Ab amet, unde quae quos assumenda impedit dicta autem rem, minima labore aperiam hic cupiditate magni nostrum! Nostrum aspernatur excepturi cumque alias quam amet, voluptatibus ex hic? Quae cupiditate recusandae similique magnam unde magni blanditiis perspiciatis libero, aperiam, sunt quidem minus et ratione quibusdam, officiis corporis ea quod provident optio? Asperiores distinctio, rerum tempore quas modi quaerat ex corporis perferendis facilis nesciunt laborum soluta. Quibusdam, voluptatum quae perferendis, iste veniam, optio dolorem vero fuga nulla ullam ipsam hic. Ex voluptatum aut fuga illo quia et quam voluptatem obcaecati quidem deserunt. Molestias ad, quae incidunt deserunt blanditiis reprehenderit quasi sequi laborum?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt natus earum expedita ratione alias assumenda, illo dolorum hic aspernatur id nihil dolorem libero atque ullam sed asperiores est cupiditate sit tempore, quia non ad quibusdam repudiandae reiciendis. Voluptas voluptates voluptatibus nostrum ullam? Rem veniam obcaecati animi sit magni dolor autem modi cumque ex, labore expedita quae, quo eligendi itaque numquam quod eaque dignissimos asperiores nemo non. Vel fugit corporis, accusamus assumenda nostrum omnis. Nihil iusto quae at reiciendis totam iure aperiam, voluptates est recusandae accusantium facilis veritatis quam animi accusamus error nam tempore, vitae inventore assumenda corrupti expedita aliquid obcaecati? Ab amet, unde quae quos assumenda impedit dicta autem rem, minima labore aperiam hic cupiditate magni nostrum! Nostrum aspernatur excepturi cumque alias quam amet, voluptatibus ex hic? Quae cupiditate recusandae similique magnam unde magni blanditiis perspiciatis libero, aperiam, sunt quidem minus et ratione quibusdam, officiis corporis ea quod provident optio? Asperiores distinctio, rerum tempore quas modi quaerat ex corporis perferendis facilis nesciunt laborum soluta. Quibusdam, voluptatum quae perferendis, iste veniam, optio dolorem vero fuga nulla ullam ipsam hic. Ex voluptatum aut fuga illo quia et quam voluptatem obcaecati quidem deserunt. Molestias ad, quae incidunt deserunt blanditiis reprehenderit quasi sequi laborum?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt natus earum expedita ratione alias assumenda, illo dolorum hic aspernatur id nihil dolorem libero atque ullam sed asperiores est cupiditate sit tempore, quia non ad quibusdam repudiandae reiciendis. Voluptas voluptates voluptatibus nostrum ullam? Rem veniam obcaecati animi sit magni dolor autem modi cumque ex, labore expedita quae, quo eligendi itaque numquam quod eaque dignissimos asperiores nemo non. Vel fugit corporis, accusamus assumenda nostrum omnis. Nihil iusto quae at reiciendis totam iure aperiam, voluptates est recusandae accusantium facilis veritatis quam animi accusamus error nam tempore, vitae inventore assumenda corrupti expedita aliquid obcaecati? Ab amet, unde quae quos assumenda impedit dicta autem rem, minima labore aperiam hic cupiditate magni nostrum! Nostrum aspernatur excepturi cumque alias quam amet, voluptatibus ex hic? Quae cupiditate recusandae similique magnam unde magni blanditiis perspiciatis libero, aperiam, sunt quidem minus et ratione quibusdam, officiis corporis ea quod provident optio? Asperiores distinctio, rerum tempore quas modi quaerat ex corporis perferendis facilis nesciunt laborum soluta. Quibusdam, voluptatum quae perferendis, iste veniam, optio dolorem vero fuga nulla ullam ipsam hic. Ex voluptatum aut fuga illo quia et quam voluptatem obcaecati quidem deserunt. Molestias ad, quae incidunt deserunt blanditiis reprehenderit quasi sequi laborum?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt natus earum expedita ratione alias assumenda, illo dolorum hic aspernatur id nihil dolorem libero atque ullam sed asperiores est cupiditate sit tempore, quia non ad quibusdam repudiandae reiciendis. Voluptas voluptates voluptatibus nostrum ullam? Rem veniam obcaecati animi sit magni dolor autem modi cumque ex, labore expedita quae, quo eligendi itaque numquam quod eaque dignissimos asperiores nemo non. Vel fugit corporis, accusamus assumenda nostrum omnis. Nihil iusto quae at reiciendis totam iure aperiam, voluptates est recusandae accusantium facilis veritatis quam animi accusamus error nam tempore, vitae inventore assumenda corrupti expedita aliquid obcaecati? Ab amet, unde quae quos assumenda impedit dicta autem rem, minima labore aperiam hic cupiditate magni nostrum! Nostrum aspernatur excepturi cumque alias quam amet, voluptatibus ex hic? Quae cupiditate recusandae similique magnam unde magni blanditiis perspiciatis libero, aperiam, sunt quidem minus et ratione quibusdam, officiis corporis ea quod provident optio? Asperiores distinctio, rerum tempore quas modi quaerat ex corporis perferendis facilis nesciunt laborum soluta. Quibusdam, voluptatum quae perferendis, iste veniam, optio dolorem vero fuga nulla ullam ipsam hic. Ex voluptatum aut fuga illo quia et quam voluptatem obcaecati quidem deserunt. Molestias ad, quae incidunt deserunt blanditiis reprehenderit quasi sequi laborum?</p>
+</body>
+</html>
